@@ -1,0 +1,100 @@
+.orderItem{
+    width: 100%;
+}
+.orderItem .orderInfo{
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    height: 100px;
+    padding-bottom: 5px;
+    margin: 10px 0px 0px 10px;
+}
+.orderItem .orderInfo .picContainer{
+    height: 100%;
+    width: 100px;
+}
+
+.orderItem .orderInfo .picContainer .pic{
+    border-radius: 5px;
+    border: 0px;
+    height: 90px;
+    width: 90px;
+}
+
+.orderItem .orderInfo .content{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 10px;
+    display:inline;
+}
+.orderItem .orderInfo .content .product{
+    font-weight: bold;
+    height: 30px;
+}
+
+.orderItem .orderInfo .content .shop{
+    height: 30px;
+    color: #9a9a9a;
+}
+
+.orderItem .orderInfo .content .price{
+    height: 30px;
+    color: #9a9a9a;
+    padding-left: 10px;
+}
+.orderItem .orderInfo .detail{
+    height: 100%;
+    width: 100px;
+    float: right;
+    padding-right: 20px;
+    display: inline;
+}
+
+.orderItem .orderInfo .detail .btn{
+    width: 80px;
+    height: 20px;
+    background: red;
+    color: white;
+    margin-top: 70px;
+}
+
+.orderItem .orderInfo .detail .disabled{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: #9a9a9a;
+    margin-top: 70px;
+}
+.orderItem .evaluate{
+    height: 80px;
+    width: 100%;
+    margin-left: 10px;
+}
+.orderItem .evaluate textarea{
+    height: 30px;
+    width: 90%;
+    border: 1px solid #9a9a9a;
+}
+.orderItem .evaluate .submit{
+    height: 20px;
+    width: 80px;
+    color: white;
+    background-color: red;
+}
+.orderItem .evaluate .cacnel{
+    height: 20px;
+    width: 80px;
+    color: white;
+    background-color: gray;
+}
+.orderItem .evaluate .stars{
+    color: #9a9a9a;
+    line-height: 30px;
+    height: 30px;
+}
+
+.orderItem .stars .red{
+    color: red;
+}
