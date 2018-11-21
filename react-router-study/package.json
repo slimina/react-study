@@ -23,15 +23,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "proxy": {
-    "/api/RoomApi": {
-      "target": "http://open.douyucdn.cn",
-      "changeOrigin": true
-    },
-    "/api/v1": {
-      "target": "http://capi.douyucdn.cn",
-      "changeOrigin": true
-    }
-  }
+  ]
 }
